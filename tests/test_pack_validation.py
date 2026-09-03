@@ -25,7 +25,7 @@ class TestRepoStructure:
     def test_license_is_mit(self):
         c = (ROOT / "LICENSE").read_text(encoding="utf-8")
         assert "MIT License" in c
-        assert "Shannon Brian Kelly" in c
+        assert "Shannon Brian Kelley" in c
 
 
 class TestCanonicalPack:
